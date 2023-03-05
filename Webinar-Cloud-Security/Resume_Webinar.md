@@ -1,8 +1,6 @@
-## **Resume Webinar**
+# **Resume Webinar**
 
 #### Senin, 27 Februari 2023
-
----
 
 &nbsp;
 
