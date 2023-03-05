@@ -8,8 +8,6 @@
 
 ## **Evolusi OS**
 
----
-
 Sistem operasi open-source Linux pertama kali dikembangkan oleh Linus Torvalds pada tahun 1991 dan terdiri dari kernel Linux dan berbagai aplikasi lainnya yang dibangun di atas kernel. Keunggulan Linux adalah kemampuannya untuk disesuaikan dan dikustomisasi sesuai dengan kebutuhan pengguna, serta keamanannya yang tinggi dan kemampuannya untuk menjalankan tugas-tugas yang berat dengan mudah. Linux memiliki banyak varian atau distribusi, seperti Ubuntu, Debian, Fedora, dan Red Hat. Masing-masing distribusi ini memiliki karakteristik dan fitur yang berbeda, sehingga pengguna dapat memilih distribusi yang paling sesuai dengan kebutuhan mereka.
 
 ### **Ubuntu**
@@ -32,8 +30,6 @@ Versi terbaru dari Debian adalah Debian 11 "Bullseye", yang dikeluarkan pada tan
 
 ## **Perintah SU | SUDO | SUDO SU**
 
----
-
 ### **Perbedaan SU, SUDO, dan SUDO SU**
 
 - SU (super user) adalah perintah untuk masuk ke dalam akun root yang memberikan hak akses penuh ke sistem operasi. Namun, penggunaan SU harus hati-hati karena kesalahan dapat menyebabkan kerusakan pada sistem operasi.
@@ -47,8 +43,6 @@ Secara keseluruhan, SU, SUDO, dan SUDO SU adalah perintah yang berguna dalam men
 &nbsp;
 
 ## **Package Maintance**
-
----
 
 ### **Cara setting repository Linux**
 
