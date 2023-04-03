@@ -1,6 +1,8 @@
+## **Praktikum Workshop Administasi Jaringan**
 # **Resume Webinar**
+### Dosen Pengampu : Dr. Ferry Astika Saputra ST, M.Sc
 
----
+
 
 #### Senin, 27 Februari 2023
 
@@ -13,7 +15,7 @@
 &nbsp;
 
 ### **Cloud Computing**
-
+---
 Cloud computing atau biasa yang disebut dengan komputasi awan adalah model yang menawarkan layanan komputasi instan dengan biaya yang relatif murah hingga tanpa biaya sekalipun. Namun, karena sifatnya yang terbuka dan mudah diakses melalui internet, cloud computing juga memiliki kerentanan dalam masalah keamanan dan privasi termasuk kebocoran data karena infrastruktur sumber daya komputasi yang digunakan bersama-bersama untuk memproses informasi seperti kekayaan intelektual, rahasia dagang, dan informasi rahasia pengguna, yang dapat menyebabkan orang yang tidak berwenang dapat mengaksesnya.
 
 - ### **The Threats**
@@ -95,5 +97,5 @@ Cloud computing atau biasa yang disebut dengan komputasi awan adalah model yang 
      Mencegah kebocoran dan kerugian.
 
 ### **Summary**
-
+---
 Pada diskusi ini menyampaikan masalah keamanan yang terkait dengan layanan cloud. Tercatat bahwa penjahat dunia maya telah mengambil keuntungan dari kerentanan dalam ekosistem bersama dan kurangnya kontrol keamanan yang efektif, yang menyebabkan penyalahgunaan platform. Peretas dapat secara ilegal mengakses informasi rahasia penyewa lain yang berada di infrastruktur cloud yang sama. Oleh karena itu, bisnis disarankan untuk melakukan penilaian risiko berkelanjutan untuk mengurangi potensi ancaman terhadap data sensitif mereka. Selanjutnya, penyedia keamanan cloud harus meningkatkan perlindungan keamanan melalui penerapan langkah-langkah keamanan proaktif yang lebih canggih dan canggih untuk mengatasi tantangan ini.

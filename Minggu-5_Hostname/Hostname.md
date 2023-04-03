@@ -1,4 +1,6 @@
+## **Laporan Praktikum Workshop Administasi Jaringan**
 # **Hostname**
+### Dosen Pengampu : Dr. Ferry Astika Saputra ST, M.Sc
 
 &nbsp;
 
@@ -11,6 +13,7 @@
 &nbsp;
 
 ### **Setting IP**
+---
 - Buka konfigurasi Mikrotik menggunakan winbox -> IP -> Address
 - Tambahkan 2 Interface sebagai berikut
 ```
@@ -27,6 +30,7 @@ Screenshot
 &nbsp;
 
 ### **Setting Default gateway 0.0.0.0/0 & IP route gateway 10.252.108.212**
+---
 - Pilih menu IP -> Routes
 - Tambahkan routingan baru dan konfigurasi default gateway-nya
 
@@ -35,6 +39,7 @@ Screenshot
 &nbsp;
 
 ### **Setting DHCP Server via DHCP Setup menjadi 192.168.X.100 - 192.168.X.254**
+---
 - Pilih menu IP -> DHCP Server -> Klik DHCP Setup
 - Pada jendela DHCP Server Interface pilih ether2
 - Selanjutnya, ketika diminta menentukan IP Address yang akan digunakan sebagai default-gateway oleh DHCP Client masukkan IP 192.168.6.100 - 192.168.6.254
@@ -44,11 +49,13 @@ Screenshot
 &nbsp;
 
 ### **Sambungkan PC atau laptop ke jaringan, cek IP address pastikan IP add dari PC mendapatkan IP add dari dhcp server**
+---
 ![](Images/image-4.jpg)
 
 &nbsp;
 
 ### **Power up nyalakan VM, pastikan konfigurasi jaringan BRIDGE dan pastikan mendapatkan IP add dari dhcp server**
+---
 - Konfigurasikan BRIDGE pada VM yang digunakan dengan cara klik Network configuration di VM => Ubah menjadi BRIDGE Adapter
 
 ![](Images/image-5.png)
@@ -56,11 +63,13 @@ Screenshot
 &nbsp;
 
 ### **Konfigurasi IP VM Menjadi Static IP : 192.168.X.10**
+---
 ![](Images/image-6.png)
 
 &nbsp;
 
 ### **Konfigurasi NTP ke 0. id.pool.ntp.org 1. id.pool.ntp.org**
+---
 1. Set Up NTP Client Mengubah Pengaturan jam Sistem
 - Untuk melihat daftar zona waktu menjalankan perintah :
 ```
@@ -121,11 +130,13 @@ timedatectl
 &nbsp;
 
 ### **Konfigurasi Sudo**
+---
 ![](Images/image-7.png)
 
 &nbsp;
 
 ### **Ganti hostname VM server10.kelompokX.takehome.com**
+---
 - Sebelum menghubahnya, bisa dicek terlebih dahulu saat ini nama dari hostname sebelum diubah.image.png
 
 ![](Images/image-8.png)

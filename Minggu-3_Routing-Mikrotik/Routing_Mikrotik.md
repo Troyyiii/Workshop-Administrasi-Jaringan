@@ -1,4 +1,6 @@
+## **Laporan Praktikum Workshop Administasi Jaringan**
 # **Routing Mikrotik**
+### Dosen Pengampu : Dr. Ferry Astika Saputra ST, M.Sc
 
 &nbsp;
 
@@ -11,7 +13,7 @@
 &nbsp;
 
 ## **IP Address PC**
-
+---
 Ip address PC kelompok 4
 
 1. PC 1 : 192.168.4.101
@@ -20,7 +22,7 @@ Ip address PC kelompok 4
 &nbsp;
 
 ## **Mikrotik**
-
+---
 Tata cara menginstall winbox
 
 1. Akses web `mikrotik.com/download`
@@ -32,7 +34,7 @@ Tata cara menginstall winbox
 &nbsp;
 
 ## **Winbox**
-
+---
 Tampilan awal pada winbox
 
 ![](images/tampilan_awal_winbox.jpeg)
@@ -121,7 +123,7 @@ Tabel Routing :
 &nbsp;
 
 ## **VirtualBox**
-
+---
 Tata cara melakukan install virtual box pada debian :
 
 1. Download virtual box pada web `https://www.virtualbox.org/wiki/Downloads` sesuaikan dengan spek pc dan OS yaitu debian 11.
