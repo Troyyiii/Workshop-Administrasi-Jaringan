@@ -1,5 +1,5 @@
 ## **Laporan Praktikum Workshop Administasi Jaringan**
-# **Instalasi WebServer**
+# **Instalasi Mail Server**
 ### Dosen Pengampu : Dr. Ferry Astika Saputra ST, M.Sc
 
 &nbsp;
