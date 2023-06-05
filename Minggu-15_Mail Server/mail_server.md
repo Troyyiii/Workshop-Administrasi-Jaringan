@@ -36,9 +36,11 @@ Sebelum meng-install mail server, ada baiknya kita menyiapkan domain khusus yang
 
 2. **Konfigurasi Postfix**<br>
     Setelah installasi selesai akan muncul message box, kemudian pilih internet site agar komunikasi email menggunakan protokol SMTP secara langsung.
+
     <img src="./assets/1.jpg"/><br>
 
     Selanjutnya masukkan nama domain yang akan digunakan.
+
     <img src="./assets/2.jpg"/><br>
 
     Setelah itu, postfix akan menyelesaikan installasinya. Setelah Installasi selesai, edit file di /etc/postfix/main.cf dan tambahkan home_mailbox = Maildir/ pada baris paling bawah.
@@ -65,14 +67,23 @@ Sebelum meng-install mail server, ada baiknya kita menyiapkan domain khusus yang
     ```
 
     Pilih beberapa pilihan dan isikan beberapa input yang akan muncul, sesuaikan dengan topology/konfigurasi sistem dan kebutuhan.
+    
     <img src="./assets/1.jpg"/><br>
+
     <img src="./assets/2.jpg"/><br>
+
     <img src="./assets/3.jpg"/><br>
+    
     <img src="./assets/4.jpg"/><br>
+    
     <img src="./assets/5.jpg"/><br>
+    
     <img src="./assets/6.jpg"/><br>
+    
     <img src="./assets/7.jpg"/><br>
+    
     <img src="./assets/8.jpg"/><br>
+    
     <img src="./assets/9.jpg"/><br>
 
     Restart postfix service.
@@ -144,10 +155,13 @@ Sebelum meng-install mail server, ada baiknya kita menyiapkan domain khusus yang
     ```
 
     Pilih yes untuk membuat database secara otomatis oleh roundcube.
+    
     <img src="./assets/10.jpg"/><br>
 
     Masukkan password database roundcube.
+    
     <img src="./assets/11.jpg"/><br>
+    
     <img src="./assets/12.jpg"/><br>
 
     Edit file /etc/roundcube/config.inc.php.
@@ -201,18 +215,23 @@ Sebelum meng-install mail server, ada baiknya kita menyiapkan domain khusus yang
     ```
 
     Kosongkan karena kita tidak menggunakan tls.
+    
     <img src="./assets/13.jpg"/><br>
 
     Pilih bahasa untuk roundcube.
+    
     <img src="./assets/14.jpg"/><br>
 
     Pilih no jika tidak ingin reinstall database yang telah dibuat.
+    
     <img src="./assets/15.jpg"/><br>
 
     Check pada pilihan apache dan uncheck lighttpd.
+    
     <img src="./assets/16.jpg"/><br>
 
     Pilih yes untuk merestart web server.
+    
     <img src="./assets/17.jpg"/><br>
 
     Keep local version jika tidak ingin merubah versi roundcube ke yang lebih terbaru.
@@ -268,7 +287,9 @@ Sebelum meng-install mail server, ada baiknya kita menyiapkan domain khusus yang
 
 - Selanjutnya buka web browser pada sisi client dan masukkan domain dari mail server **(mail.kampus-06.takehome.com)**, maka akan muncul interface dari roundcube. Lalu login menggunakan salah satu user yang telah dibuat (disini kita menggunakan user default).<br>
   Klik pada compose dan isikan pesan untuk user lainnya. Lalu klik send.
+  
   <img src="./assets/19.jpg"/><br>
 
   Logout dan login ke user penerima, maka akan muncul pesan yang dikirim.
+  
   <img src="./assets/20.jpg"/><br>
